@@ -32,7 +32,160 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/* --------------------------------------------- Manul css ----------------------------------------------------------- */
+
+#already {
+  margin-left: 9%;
+}
+
+
+#follow {
+  margin-left: 30%;
+  margin-top: 24px;
+}
+
+
+i.fa-regular.fa-envelope.position-absolute {
+  top: 48%;
+  left: 14px;
+}
+
+/* For Eyes */
+/* For Eyes */
+i.position-absolute.eyes.fas.eye-btn.fa-eye-slash {
+  top: 62%;
+  left: 70%;
+}
+
+i.fas.fa-eye.position-absolute {
+  top: 62%;
+  left: 70%;
+}
+
+
+button#signin {
+  background-color: hsl(216deg 82.68% 29.74%)
+}
+
+/* Image position */
+img.position-absolute {
+  top: 0px;
+  right: -3%;
+}
+
+input.form-control.ms-2 {
+  width: 15%;
+}
+
+/* leftbar css */
+.col-2.border.bg-light {
+  border-radius: 10px;
+}
+
+.container.border.border-info.rounded.mt-5.mb-5.d-flex {
+  background: white;
+}
+
+.col-1 {
+  background-color: white;
+}
+
+.btn.btn-light.text-dark.w-25 {
+  background-color: hsl(332, 76%, 44%);
+}
+
+.btn.btn-light.text-white {
+  background-color: hsl(332, 84%, 41%);
+}
+
+
+
+#social {
+  margin-left: 19px
+}
+
+
+
+
+
+
+/* Media queries */
+
+/* For screens larger than 768px */
+@media (min-width: 768px) {
+  /* Add responsive styles here */
+}
+
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+  /* Add responsive styles here */
+}
+
+/* For screens smaller than 576px (e.g., mobile devices) */
+@media (max-width: 576px) {
+  /* Add responsive styles here */
+}
+
+
+/* login css */
+
+/* Add this CSS to your stylesheet or within a style block */
+.container {
+  background: url('./Components/Images/vet.jpg') center center/cover no-repeat;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  /* Adjust opacity as needed */
+}
+
+
+.container {
+  position: relative;
+}
+
+.text-elements {
+  position: relative;
+  z-index: 2;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+/* dashboard css */
+
+.col-10 {
+  background-color: offwhite;
+}
+
+
+.col-md-3.position-absolute {
+  left: 74%;
+  top: -34%;
+}
+
+#dash {
+  background-color: #144f5a;
+}
+
+
+.background{
+  background-color: beige;
 }
